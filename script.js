@@ -95,16 +95,6 @@ document.addEventListener("DOMContentLoaded", function () {
       canvas.height = canvas.offsetHeight;
     });
   }
-
-  // Form Submission
-  const contactForm = document.getElementById("contact-form");
-  if (contactForm) {
-    contactForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      alert("Thank you! Your message has been sent.");
-      contactForm.reset();
-    });
-  }
 });
 
 // Ensure Typed.js is loaded
