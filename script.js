@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Observe both .scroll-animate AND .timeline-item for reveal!
+  // Observe both .scroll-animate AND .timeline-item for reveal
   const hiddenElements = document.querySelectorAll(".scroll-animate, .timeline-item");
   hiddenElements.forEach((el) => observer.observe(el));
 
